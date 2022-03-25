@@ -104,10 +104,10 @@ li{
     margin: 20px 0 30px;
 }
 .black{
-    color: #000;
+    color: yellow;
 }
 .text{
-    color: #000;
+    color: yellow;
 
 }
 .name{
@@ -312,5 +312,10 @@ body {
     }
 h1.b{
     text-align: center;
+}
+}
+@media screen and (min-width: 480px){
+body{
+    min-width: 100%;
 }
 }
